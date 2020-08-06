@@ -110,6 +110,12 @@
       }
   }
 
+  @media only screen and (max-width: 500px) {
+    .site__header {
+      visibility: hidden;
+    }
+  }
+
   mark {
     color: #000;
     background: none;
